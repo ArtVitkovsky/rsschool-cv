@@ -47,7 +47,6 @@ So far I have no experience in commercial development, but I have experience in 
 ## *Education and Courses*
 ### *higher education*: P. O. Sukhoi State Technical University of Gomel city 
 ### **Stepik**: Python generation course for beginners
-![Stepik](stepik-certificate-58852-918a6a1.pdf)
 
 
 
