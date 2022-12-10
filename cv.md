@@ -23,8 +23,9 @@ I am 26 years old, I graduated from *[P. O. Sukhoi State Technical University](h
 + Git, GitHub
 + VS Code IDEA
 + Python
-+ Django framework
++ Django
 + PyCharm IDEA
+
 
 
 
