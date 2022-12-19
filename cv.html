@@ -3,53 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="style.css">
         <title>CV</title>
     </head>
     <body>
         <div class="all-blocs">
-            <div class="heat">
-                <header class="top">
-                    <div class="avatar">
-                        <img class="avatar_pict" src="/Users/Cute/rsschool-cv/images/avatar.jpg" alt="avatar" width="320" height="240">
+            <div class="header-block">
+                <header class="header">
+                    <div>
+                        <img class="avatar_pict" src="/Users/Cute/rsschool-cv/images/avatar.jpg" alt="avatar" width="150" height="150">
                     </div>
                     <div class="name">
-                        <h1 class="name_text">Vitkovsky Artem</h1>
-                        <h3>backend developer</h3>
+                        <h1>Vitkovsky Artem</h1>
+                        <h3 class="job">Backend developer</h3>
+                        <ul class="list_heat">
+                            <li>Phone: +375297341194</li>
+                            <li><img class="icon_lil" src="/Users/Cute/rsschool-cv/images/linkedin.png" alt="LinkedIn" width="20" height="20"><a href="https://www.linkedin.com/in/artem-vitkovsky-b19604253">&#160&#160&#160Artem Vitkovsky</a></li>
+                        </ul>
                     </div>    
                 </header>
             </div>
-            <div class="aside-block">
-                <aside class="aside">
+            <div class="navigation-block">
+                <nav class="navi">
                     <h2>Navigation</h2>
-                    <nav class="nanigation-block">
-                        <ul>
-                            <li><a class="navigation_main" href="#about-me">About me</a></li>
-                            <li><a class="navigation_main" href="#contacts">Contacts</a></li>
-                            <li><a class="navigation_main" href="#skills">skills</a></li>
-                            <li><a class="navigation_main" href="#code">Code examplee</a></li>
-                            <li><a class="navigation_main" href="#experience">Experience</a></li>
-                            <li><a class="navigation_main" href="#aducation">Aducation and courses</a></li>
-                            <li><a class="navigation_main" href="#languages">Languages</a></li>
-                        </ul>
-                    </nav>
-                </aside>
+                    <ul>
+                        <li><a class="navigation_main" href="#about-me">About me</a></li>
+                        <li><a class="navigation_main" href="#contacts">Contacts</a></li>
+                        <li><a class="navigation_main" href="#skills">skills</a></li>
+                        <li><a class="navigation_main" href="#code">Code examplee</a></li>
+                        <li><a class="navigation_main" href="#experience">Experience</a></li>
+                        <li><a class="navigation_main" href="#aducation">Aducation and courses</a></li>
+                        <li><a class="navigation_main" href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
             </div> 
             <div class="main-block" id="main">
                 <main class="main-block">
                     <div class="contacts-block" id="contacts">
                         <h2>Contact information:</h2>
                         <ul class="contact_list">
-                            <li>Locetion: Belarus, Gomel</li>
-                            <li>Phone: +375(29)7341194</li>
-                            <li>E-mail: workwith1995@gmail.com</li>
-                            <li>LinkedIn: <a href="https://www.linkedin.com/in/artem-vitkovsky-b19604253">Artem Vitkovsky</a></li>
-                            <li>GitHub: <a href="https://github.com/ArtVitkovsky">ArtVitkovsky</a></li>
+                            <li><b>Locetion</b>: Belarus, Gomel</li>
+                            <li><b>Phone</b> +375(29)7341194</li>
+                            <li><b>E-mail</b> workwith1995@gmail.com</li>
+                            <li><b>LinkedIn</b> <a href="https://www.linkedin.com/in/artem-vitkovsky-b19604253">Artem Vitkovsky</a></li>
+                            <li><b>GitHub</b>: <a href="https://github.com/ArtVitkovsky">ArtVitkovsky</a></li>
                         </ul>
                     </div>
                     <div class="about_me-block" id="about-me">
                         <h2>About me</h2>
                         <p>
-                            I am 26 years old, I graduated from <a href="https://www.gstu.by/">P. O. Sukhoi State Technical University</a> in 2021 with a degree in power engineering. My main goals right now are: personal and career growth. My strengths are: high communication skills, stress resistance, teamwork, and the ability to manage a small team. At the moment I am actively studying such programming languages as: Python, JavaScript and SQL to try myself in a new business.
+                            I am 26 years old, I graduated from <strong><em><a href="https://www.gstu.by/">P. O. Sukhoi State Technical University</a></em></strong> in 2021 with a degree in power engineering. My main goals right now are: <i>personal and career growth</i>. My strengths are: <i>high communication skills, stress resistance, teamwork</i>, and the ability to <i>manage a small team</i>. At the moment I am actively studying such programming languages as: <strong>Python, SQL, HTML, CSS</strong>, to try myself in a new business.
                         </p>
                     </div>
                     <div class="skills-block" id="skills">
@@ -90,7 +93,14 @@
                         </ul>
                     </div>
                 </main>
-            </div>     
+            </div> 
+            <div class="flooter-block">
+                <flooter class="flooter" id="flooter">
+                    <h4>Contacts</h4>
+                    <a class="flooter_list" href="https://www.linkedin.com/in/artem-vitkovsky-b19604253"><img src="/Users/Cute/rsschool-cv/images/linkedin.png" alt="linkedin link" width="40" height="40"></a>
+                    <a class="flooter_list" href="https://github.com/ArtVitkovsky"><img src="/Users/Cute/rsschool-cv/images/Git.png" alt="GitHub link" width="40" height="40"></a>
+                </flooter>
+            </div>    
         </div>
     </body>
 </html>

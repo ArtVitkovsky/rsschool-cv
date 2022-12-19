@@ -1,15 +1,30 @@
-.header {
+.header-block {
 	top:20px;
+	
+}
+
+.avatar_pict {
+	border-radius: 50%;
+}
+
+.name {
+	margin-left: 35%;
+	margin-top: -150px;
+}
+
+.job {
+	margin-left: 50px;
+	margin-top: -20px;
+}
+
+.list_heat{
+	list-style-type: none;
+}
+
+.navigation-block {
+	margin-top: 120px;
 }
 
 .main {
 	padding-top:100px;
-}
-
-.posLeft {
-	margin-left:-66%;
-}
-
-.posCenter {
-	margin-left:33%;
 }
