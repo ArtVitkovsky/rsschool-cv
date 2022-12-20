@@ -1,15 +1,33 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+.all-blocs {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(136, 137, 138, 0.651);
+}
+
+
 .header-block {
-	top:20px;
+	top: 0;
 	
 }
 
 .avatar_pict {
 	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 5%;
 }
 
 .name {
-	margin-left: 35%;
-	margin-top: -150px;
+	margin-left: 40%;
+	margin-top: -350px;
+	text-decoration: none;
+	
 }
 
 .job {
@@ -19,12 +37,102 @@
 
 .list_heat{
 	list-style-type: none;
+	margin-top: -15px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.icon_lil {
+	border-radius: 50%;
+	margin-top: 10px;
+	
+}
+
+.link_net{
+	text-decoration: none;
+	color: black;
 }
 
 .navigation-block {
 	margin-top: 120px;
 }
 
-.main {
-	padding-top:100px;
+.navigation {
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	list-style: none;
+	background-color: rgb(214, 224, 219);
+	text-decoration-color: black;
+	margin-bottom: 5%;
+}
+
+.navigation_main {
+	text-decoration: none;
+	color: black;
+}
+
+.contact_list {
+	margin-top: -5%;
+	margin-bottom: 5%;
+	margin-left: 30%;
+	font-size: medium;
+}
+
+.about_me-block {
+	font-size: medium;
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+
+.about {
+	margin-left: 31%;
+	margin-top: -5%;
+}
+
+.skills-block {
+	font-size: medium;
+	margin-bottom: 5%;
+}
+
+.skills_list {
+	margin-left: 30%;
+	margin-top: -7%;
+}
+
+.experience-block {
+	font-size: medium;
+}
+
+.expiriebce {
+	margin-left: 31%;
+	margin-top: -5%;
+	margin-bottom: 5%;
+}
+
+.aducation-block{
+	font-size: medium;
+}
+
+.aducation_list {
+	margin-left: 30%;
+	margin-top: -5%;
+	margin-bottom: 7%;
+}
+
+.languages-block {
+    font-size: medium;
+}
+
+
+.languages_list {
+	margin-left: 30%;
+	margin-top: -5%;
+	margin-bottom: 10%;
+}
+
+.flooter_pict {
+	border-radius: 50%;
 }
